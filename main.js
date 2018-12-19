@@ -85,7 +85,7 @@ function gestisciLingua(lingua) {
       console.log(lingua + ' lingua supportata');
       htmlOutput = "<img class='bandiera' src='" + lingua + ".png' />";
     } else {
-      htmlOutput = lingua + ' non supportata'
+      htmlOutput = lingua + ' non supportata';
     }
 
     return htmlOutput;
